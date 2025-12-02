@@ -1,4 +1,4 @@
-{% set version = "8.7.0" %}
+{% set version = "8.7.1" %}
 
 package:
   name: dtrx
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dtrx/dtrx-{{ version }}.tar.gz
-  sha256: d7c58048cd4a0e05337f0e0e01b05ad9ebc2b450a0f6706afc4b69abea81096f
+  sha256: d3be625ce7860c82d5159a551bbd215eada8a11cf4f82557e4f77eabc0986e43
 
 build:
   entry_points:
